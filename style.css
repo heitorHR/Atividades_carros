@@ -10,16 +10,36 @@
     --dark-cyan:#004241;
     --gray :#f2f2f2;
     --transparente-white:rgba(255,255,255,0.75);
-
-   
+}
+body{
+    padding: 5.5rem 1rem;
 }
 h2{
     font-family: 'Big Shoulders Display', sans-serif;
-    font-family: 'Lexend Deca', sans-serif;
+    text-transform:uppercase ;
+    font-size: 2.5rem;
+    color: var(--gray);
+    margin-block: 1.875rem;
 }
 p{
     font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9375rem;
+    color: var(--transparente-white);
+    margin-bottom: 1.875rem;
 }
 a{
     font-family: 'Lexend Deca', sans-serif;
+}
+section{
+    padding: 3rem;
+    
+}
+.sedans{
+    background: var(--orange);
+}
+.Suvs{
+    background: var(--cyan);
+}
+.Luxuosos{
+    background: var(--dark-cyan);
 }
